@@ -47,3 +47,4 @@ C:\Users\17167\Desktop\project\ReactApp\ReactApp.Server\bin\Debug\net8.0\Microso
 C:\Users\17167\Desktop\project\ReactApp\ReactApp.Server\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\17167\Desktop\project\ReactApp\ReactApp.Server\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\17167\Desktop\project\ReactApp\ReactApp.Server\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\17167\Desktop\project\ReactApp\ReactApp.Server\obj\Debug\net8.0\ReactApp.Server.sourcelink.json

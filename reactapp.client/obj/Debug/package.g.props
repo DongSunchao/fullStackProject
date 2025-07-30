@@ -9,11 +9,23 @@
     <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">tsc -b &amp;&amp; vite build</PackageJsonScriptsBuild>
     <PackageJsonScriptsLint Condition="$(PackageJsonScriptsLint) == ''">eslint .</PackageJsonScriptsLint>
     <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
+    <PackageJsonDependenciesReduxjsToolkit Condition="$(PackageJsonDependenciesReduxjsToolkit) == ''">^2.8.2</PackageJsonDependenciesReduxjsToolkit>
+    <PackageJsonDependenciesAntd Condition="$(PackageJsonDependenciesAntd) == ''">^5.26.7</PackageJsonDependenciesAntd>
+    <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.11.0</PackageJsonDependenciesAxios>
+    <PackageJsonDependenciesNprogress Condition="$(PackageJsonDependenciesNprogress) == ''">^0.2.0</PackageJsonDependenciesNprogress>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^18.3.1</PackageJsonDependenciesReact>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^18.3.1</PackageJsonDependenciesReactDom>
+    <PackageJsonDependenciesReactRedux Condition="$(PackageJsonDependenciesReactRedux) == ''">^9.2.0</PackageJsonDependenciesReactRedux>
+    <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">^7.7.1</PackageJsonDependenciesReactRouterDom>
+    <PackageJsonDependenciesReduxLogger Condition="$(PackageJsonDependenciesReduxLogger) == ''">^3.0.6</PackageJsonDependenciesReduxLogger>
+    <PackageJsonDependenciesReduxThunk Condition="$(PackageJsonDependenciesReduxThunk) == ''">^3.1.0</PackageJsonDependenciesReduxThunk>
+    <PackageJsonDependenciesWebVitals Condition="$(PackageJsonDependenciesWebVitals) == ''">^5.0.3</PackageJsonDependenciesWebVitals>
     <PackageJsonDevdependenciesEslintJs Condition="$(PackageJsonDevdependenciesEslintJs) == ''">^9.13.0</PackageJsonDevdependenciesEslintJs>
-    <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">^18.3.12</PackageJsonDevdependenciesTypesReact>
-    <PackageJsonDevdependenciesTypesReactDom Condition="$(PackageJsonDevdependenciesTypesReactDom) == ''">^18.3.1</PackageJsonDevdependenciesTypesReactDom>
+    <PackageJsonDevdependenciesTypesNode Condition="$(PackageJsonDevdependenciesTypesNode) == ''">^22</PackageJsonDevdependenciesTypesNode>
+    <PackageJsonDevdependenciesTypesNprogress Condition="$(PackageJsonDevdependenciesTypesNprogress) == ''">^0.2.3</PackageJsonDevdependenciesTypesNprogress>
+    <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">^18.3.23</PackageJsonDevdependenciesTypesReact>
+    <PackageJsonDevdependenciesTypesReactDom Condition="$(PackageJsonDevdependenciesTypesReactDom) == ''">^18.3.7</PackageJsonDevdependenciesTypesReactDom>
+    <PackageJsonDevdependenciesTypesReduxLogger Condition="$(PackageJsonDevdependenciesTypesReduxLogger) == ''">^3.0.13</PackageJsonDevdependenciesTypesReduxLogger>
     <PackageJsonDevdependenciesVitejsPluginReact Condition="$(PackageJsonDevdependenciesVitejsPluginReact) == ''">^4.3.3</PackageJsonDevdependenciesVitejsPluginReact>
     <PackageJsonDevdependenciesEslint Condition="$(PackageJsonDevdependenciesEslint) == ''">^9.13.0</PackageJsonDevdependenciesEslint>
     <PackageJsonDevdependenciesEslintPluginReactHooks Condition="$(PackageJsonDevdependenciesEslintPluginReactHooks) == ''">^5.0.0</PackageJsonDevdependenciesEslintPluginReactHooks>
@@ -22,6 +34,5 @@
     <PackageJsonDevdependenciesTypescript Condition="$(PackageJsonDevdependenciesTypescript) == ''">~5.6.2</PackageJsonDevdependenciesTypescript>
     <PackageJsonDevdependenciesTypescriptEslint Condition="$(PackageJsonDevdependenciesTypescriptEslint) == ''">^8.11.0</PackageJsonDevdependenciesTypescriptEslint>
     <PackageJsonDevdependenciesVite Condition="$(PackageJsonDevdependenciesVite) == ''">^5.4.10</PackageJsonDevdependenciesVite>
-    <PackageJsonDevdependenciesTypesNode Condition="$(PackageJsonDevdependenciesTypesNode) == ''">^22</PackageJsonDevdependenciesTypesNode>
   </PropertyGroup>
 </Project>
