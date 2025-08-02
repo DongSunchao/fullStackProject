@@ -22,6 +22,14 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection(); 
 
+static void func(ref string s)
+{
+    s = "Hello, World!";
+    Console.WriteLine(s);
+}
+
+string s2 = "Initial Value";
+func(ref s2);
 
 app.UseAuthorization();
 
