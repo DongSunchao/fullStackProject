@@ -1,3 +1,7 @@
+using System.Collections.Generic;
+using System.Collections;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -30,6 +34,30 @@ static void func(ref string s)
 
 string s2 = "Initial Value";
 func(ref s2);
+int[] array1=new int[] { 1, 2, 3, 4, 5 };
+int[] arrayCopy = array1;
+object clonedArray = array1.Clone();
+
+int[] array_clone= (int[])clonedArray;
+
+array1[0] = 10; // Modify original array
+Console.WriteLine("Original array: " + string.Join(", ", array1));//shallow copy
+
+Hashtable hashtable = new Hashtable();
+hashtable.Add("key1", "value1");
+hashtable.Add("key2", "value2");
+Console.WriteLine("Hashtable contents:"+string.Join(",",hashtable.ToString()));
+
+
+Console.WriteLine("Cloned array: " + string.Join(", ", array_clone)); // Cloned array remains unchanged
+
+Console.WriteLine(string.Join(",",arrayCopy));
+
+
+
+
+
+
 
 app.UseAuthorization();
 
