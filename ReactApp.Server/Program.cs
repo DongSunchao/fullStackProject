@@ -35,7 +35,7 @@ static void func(ref string s)
 string s2 = "Initial Value";
 func(ref s2);
 int[] array1=new int[] { 1, 2, 3, 4, 5 };
-int[] arrayCopy = array1;
+int[] arrayCopy = array1;// like &
 object clonedArray = array1.Clone();
 
 int[] array_clone= (int[])clonedArray;
